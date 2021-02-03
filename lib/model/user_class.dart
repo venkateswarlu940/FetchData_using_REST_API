@@ -121,18 +121,3 @@ class Company {
     return data;
   }
 }
-// class Users{
-//   final int id;
-//   final String name;
-//   final String email;
-//   final String street;
-//   Users({this.id, this.name, this.email,this.street});
-//   factory Users.fromJson(Map<String, dynamic> json){
-//     return Users(
-//       id: json['id'],
-//       name:json['name'],
-//       email: json['email'],
-//       street: json['street']
-//     );
-//   }
-// }

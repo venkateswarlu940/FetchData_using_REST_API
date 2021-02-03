@@ -55,6 +55,23 @@ class HomePage extends State<MyHomePage>{
                       Text(user.address.suite),
                       Text(user.address.city),
                      Text(user.address.zipcode),
+                    Card(
+                      child: Column(
+                        children: [
+                          Text(user.phone),
+                          Text(user.website),
+                        ],
+                      ),
+                    ),
+                    Card(
+                      child: Column(
+                        children: [
+                          Text(user.company.name),
+                          Text(user.company.catchPhrase),
+                          Text(user.company.bs),
+                        ],
+                      ),
+                    ),
                     ],
                 ),
               ),
